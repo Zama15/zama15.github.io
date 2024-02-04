@@ -1,0 +1,44 @@
+.dropdown {
+  position: relative;
+
+  &__toggle {
+    align-items: center;
+    border-radius: $br-md;
+    cursor: pointer;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__toggle::after {
+    content: '\F279';
+    font-family: $ff-icons;
+    padding: sizes('sm');
+    transition: content 0.3s ease-in-out;
+  }
+
+  &:hover &__toggle::after {
+    content: '\F27C';
+  }
+
+  &:hover ul {
+    display: flex;
+  }
+}
+
+.dropdown ul {
+  background-color: darken($white, 4%);
+  display: none;
+  left: 0;
+  padding: sizes('xs');
+  position: absolute;
+  top: 75%;
+  transition: display 0.3s ease-in-out;
+
+  li {
+    padding: sizes('sm');
+  }
+
+  li:hover {
+    background-color: $gray-500;
+  }
+}

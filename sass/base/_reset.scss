@@ -1,0 +1,38 @@
+* {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $white;
+  padding: sizes('md');
+}
+
+body, div, section, article,
+header, footer, nav,
+ul, ol, li, a, p, span {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+li, ol, ul {
+  list-style: none;
+}
+
+img, svg, video {
+  user-select: none;
+}

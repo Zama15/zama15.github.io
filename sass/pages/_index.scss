@@ -1,0 +1,18 @@
+.hero {
+
+  h1 {
+    font-size: $fs-xxl;
+    text-align: center;
+  }
+
+  img {
+    border-radius: 0 $br-md 0 $br-md;
+    box-shadow: $bs-all 10px $shadow;
+  }
+
+  & > p {
+    font-size: $fs-md;
+    padding-bottom: sizes('lg');
+    text-align: center;
+  }
+}

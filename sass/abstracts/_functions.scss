@@ -1,0 +1,15 @@
+@function sizes($key) {
+  @return map-get($sizes-map, $key);
+}
+
+@function sum-sizes($keys...) {
+  $sum: 0;
+  @each $key in $keys {
+    $sum: $sum + map-get($sizes-map, $key);
+  }
+  @return $sum;
+}
+
+@function z-index($key) {
+  @return map-get($z-index-map, $key);
+}

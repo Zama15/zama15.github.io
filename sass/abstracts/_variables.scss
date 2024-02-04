@@ -1,0 +1,56 @@
+// Colors
+$white: hsl(0, 10%, 95%);
+$black: hsl(0, 5%, 10%);
+$red: hsl(0, 80%, 60%);
+$gray-500: hsl(0, 0%, 70%);
+$gray-600: hsl(0, 0%, 60%);
+$gray-700: hsl(0, 0%, 50%);
+$gray-800: hsl(0, 0%, 40%);
+$gray-900: hsl(0, 0%, 30%);
+
+// Box Shadows
+$shadow: rgba(0, 0, 0, 0.1);
+$bs-all: 0 0;
+$bs-t: 0 -5px;
+$bs-b: 0 5px;
+$bs-l: -5px 0;
+$bs-r: 5px 0;
+$bs-tl: -5px -5px;
+$bs-tr: 5px -5px;
+$bs-bl: -5px 5px;
+$bs-br: 5px 5px;
+
+// Border Radius
+$br-none: 0;
+$br-sm: 5px;
+$br-md: 10px;
+$br-lg: 15px;
+$br-xl: 25px;
+$br-circle: 50%;
+
+$z-index-map: (
+  'backdrop': 700,
+  'dropdown': 400,
+  'fixed': 600,
+  'loading': 900,
+  'modal': 300,
+  'nav': 100,
+  'overlay': 200,
+  'sticky': 500,
+  'toast': 800,
+  'tooltip': 1000,
+);
+
+$sizes-map: (
+  'na': 0,
+  'auto': auto,
+  'xs': 4px,
+  'sm': 8px,
+  'md': 16px,
+  'lg': 32px,
+  'xl': 64px,
+  'xxl': 128px,
+  'vl': 256px,
+  'vxl': 512px,
+  'vxxl': 1024px,
+);

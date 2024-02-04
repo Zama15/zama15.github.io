@@ -1,0 +1,50 @@
+// Font Families
+$ff-base: ('Rubik', sans-serif);
+$ff-special: ('Protest Strike', sans-serif);
+$ff-icons: 'bootstrap-icons', sans-serif;
+
+// Font Sizes
+$fs-xxs: 12px;
+$fs-xs: 14px;
+$fs-sm: 16px;
+$fs-md: 18px;
+$fs-lg: 20px;
+$fs-xl: 24px;
+$fs-xxl: 32px;
+$fs-xxxl: 48px;
+
+// Font Weights
+$fw-lighter: 100;
+$fw-light: 300;
+$fw-regular: 400;
+$fw-medium: 500;
+$fw-bold: 700;
+$fw-bolder: 900;
+
+// Line Heights
+$lh-xs: 1.2;
+$lh-sm: 1.4;
+$lh-md: 1.6;
+$lh-lg: 1.8;
+$lh-xl: 2;
+
+body {
+  color: $gray-900;
+  font-family: $ff-base;
+  font-size: $fs-md;
+  line-height: $lh-md;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $black;
+  font-family: $ff-special;
+  font-weight: $fw-light;
+  line-height: $lh-md;
+}
+
+p, a, span, li, label, input, textarea, select, button {
+  color: $black;
+  font-family: $ff-base;
+  font-weight: $fw-regular;
+  line-height: $lh-sm;
+}

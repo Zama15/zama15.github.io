@@ -1,0 +1,14 @@
+.tag {
+  align-items: center;
+  background-color: $red;
+  border-radius: $br-sm;
+  color: $white;
+  flex-direction: row;
+  margin: auto;
+  padding: sizes('sm');
+
+  i, p, a{
+    color: $white;
+    padding: sizes('xs');
+  }
+}
